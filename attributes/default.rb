@@ -13,8 +13,8 @@ default[:flower][:auth] = nil
 default[:flower][:listen_address] = '127.0.0.1'
 default[:flower][:listen_port] = '5555'
 
-default[:flower][:ssl_cert] = 'server.cert'
-default[:flower][:ssl_key] = 'server.key'
+default[:flower][:ssl_cert] = nil
+default[:flower][:ssl_key] = nil
 
 default[:flower][:broker][:protocol] = 'amqp'
 default[:flower][:broker][:host] = 'localhost'
