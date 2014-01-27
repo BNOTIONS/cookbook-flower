@@ -3,3 +3,5 @@
 require 'bundler'
 require 'bundler/setup'
 require 'berkshelf/thor'
+require 'thor/foodcritic'
+
